@@ -110,7 +110,7 @@ declare namespace App {
 ```ts
 // src/middleware.ts
 import {
-	validateSession,
+	validateSessionToken,
 	setSessionTokenCookie,
 	deleteSessionTokenCookie
 } from "./lib/server/session";
